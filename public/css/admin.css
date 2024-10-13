@@ -1,0 +1,91 @@
+
+        #sidebar {
+            width: 250px;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background-color: #343a40;
+            color: #fff;
+            transition: all 0.3s;
+        }
+
+        #sidebar .nav-item {
+            padding: 10px 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        #sidebar .nav-item.profile {
+            padding: 20px 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        #sidebar .nav-item.profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        #sidebar .nav-item.profile h4 {
+            margin: 0;
+        }
+
+        #sidebar .nav-item.profile p {
+            margin: 0;
+        }
+
+        #sidebar .nav-item.menu-items {
+            position: relative;
+        }
+
+        #sidebar .nav-item.menu-items .nav-link {
+            color: #fff;
+        }
+
+        #sidebar .nav-item.menu-items .nav-link:hover {
+            background-color: #343a40;
+        }
+
+        #sidebar .nav-item.menu-items .nav-link.active {
+            background-color: #343a40;
+        }
+
+        #sidebar .nav-item.menu-items .nav-link .menu-icon {
+            margin-right: 10px;
+        }
+
+        #sidebar .nav-item.menu-items .nav-link .menu-title {
+            font-size: 16px;
+        }
+
+        #sidebar .nav-item.menu-items .sub-menu {
+            display: none;
+            padding-left: 10px;
+        }
+
+        #sidebar .nav-item.menu-items .sub-menu li {
+            padding: 5px 0;
+        }
+
+        #sidebar .nav-item.menu-items .sub-menu li a {
+            color: #fff;
+        }
+
+        #sidebar .nav-item.menu-items .sub-menu li a:hover {
+            color: #fff;
+        }
+
+        #sidebar .nav-item.menu-items.active .sub-menu {
+            display: block;
+        }
+
+        #page-content-wrapper {
+            margin-left: 250px;
+            transition: all 0.3s;
+        }
+
+
+        
+        
